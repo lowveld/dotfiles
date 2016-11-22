@@ -1,8 +1,16 @@
 # General
-alias cl="clear"
-alias k='k -h'
-alias ll='ls -la'
-alias l.='ls -d .*'
+alias portforward="ssh -X contactive@local.contactive.com -N  -R *:18888:127.0.0.1:18888 -v&"
+alias ls="ls -G"
+alias l="ls -l"
+alias ll="ls -lAF"
+alias la="ls -la"
+alias ltr="ls -ltr"
+alias latr="ls -latr"
+alias ..="cd .."
+alias ...="cd ../.."
+alias md="mkdir"
+alias meld="ksdiff"
+export PATH=$PATH:/Users/teixeira/bin
 
 # Plugins
 source ~/.dotfiles/plugins/haste/haste.plugin.zsh

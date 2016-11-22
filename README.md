@@ -1,9 +1,9 @@
-# Nuno Ferreira's dotfiles
+# Luís Teixeira's dotfiles
 
 ## Installation
 Clone the repo and run the install script:
 ``bash
-git clone git@github.com:nferreyra/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./install
+git clone git@github.com:lowveld/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./install
 ``
 
 To update simply `cd` into the `.dotfiles` directory and `git pull`.
@@ -25,5 +25,6 @@ email = EMAIL
 
 ## Thanks to
 
+* [Nuno Fereira] (https://github.com/nferreyra) who I cloned this from originally :)
 * [Stefan Hoffmann](https://github.com/hoffi) for sharing his inspiring dotfiles
 * [Anish Athalye](http://www.anishathalye.com) for his [dotbot](https://github.com/anishathalye/dotbot) script
