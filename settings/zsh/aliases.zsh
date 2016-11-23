@@ -10,10 +10,12 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias md="mkdir"
 alias meld="ksdiff"
+alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 export PATH=$PATH:/Users/teixeira/bin
 
 # Plugins
 source ~/.dotfiles/plugins/haste/haste.plugin.zsh
+source ~/.dotfiles/dots/work/zsh-theme-lambda.plugin.zsh
 alias vboxctl='~/.dotfiles/plugins/virtualbox/vbctl-v1.9.sh'
 alias dk='source ~/.dotfiles/plugins/docker/dockerstart.sh'
 alias drm='~/.dotfiles/plugins/docker/docker-rm.sh'
