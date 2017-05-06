@@ -18,6 +18,11 @@ and add your user infos:
 name = NAME
 email = EMAIL
 ``
+## Configure VIM
+Open vi and:
+``
+:PlugInstall
+``
 
 ## Theme
 
