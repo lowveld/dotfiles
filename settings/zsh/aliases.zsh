@@ -11,7 +11,10 @@ alias ...="cd ../.."
 alias md="mkdir"
 alias meld="ksdiff"
 alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-export PATH=$PATH:/Users/teixeira/bin
+export PATH=$PATH:/Users/teixeira/bin:/Users/teixeira/Library/Android/sdk/platform-tools
+export FUZE_USER="lteixeira"
+export FUZE_RSA="/Users/teixeira/.ssh/id_dsa_knife"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Plugins
 source ~/.dotfiles/plugins/haste/haste.plugin.zsh

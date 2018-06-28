@@ -26,3 +26,6 @@
   commentChar = >
 [include]
   path = ~/.gitconfig.user
+[user]
+	name = Luís Teixeira
+	email = luis@fuze.com
