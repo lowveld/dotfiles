@@ -25,3 +25,9 @@ zplug load
 export XDG_CONFIG_HOME="$HOME/.config"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+sshf() {
+    tmux rename-window "$*" &> /dev/null
+    command sshf "$@"
+    tmux rename-window "localhost" &> /dev/null
+}
