@@ -11,10 +11,12 @@ alias ...="cd ../.."
 alias md="mkdir"
 alias meld="ksdiff"
 alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+#alias st="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --goto"
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --goto"
 export PATH=$PATH:/Users/teixeira/bin:/Users/teixeira/Library/Android/sdk/platform-tools
 export FUZE_USER="lteixeira"
 export FUZE_RSA="/Users/teixeira/.ssh/id_dsa_knife"
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+#export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Plugins
 source ~/.dotfiles/plugins/haste/haste.plugin.zsh
@@ -34,3 +36,5 @@ alias bitbucket_repo_url='echo https://$(git remote -v | grep -oh "bitbucket.org
 alias bitbucket_review_url='echo $(bitbucket_repo_url)/branches/compare/$(branch_current)..$(branch_oldest_ancestor)'
 alias redmine_url='echo http://redmine.nwwo.de/issues/$(branch_current | grep -oh "^[0-9]\+")'
 alias branch_rubocop="branch_files | grep '\.rb$' | xargs rubocop"
+alias ChomeUnsecure='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --ignore-certificate-errors'
+alias edit='open -a TextEdit'
